@@ -37,7 +37,7 @@ cp config.example.yaml config.yaml
 
 本项目支持多种推送渠道，请在 `config.yaml` 的 `notify` 节点下配置：
 
-* **Qmsg 酱**：通过 QQ 发送通知。
+* **Qmsg 酱**：通过 QQ开放平台机器人 发送通知。
 * **OneBot V11**：支持 SnowLuma、NapCat、go-cqhttp 等，可推送至私聊或群聊。
 * **电子邮件 (SMTP)**：支持 QQ、网易等主流邮箱推送。
 * **企业微信**：通过群机器人 Webhook 推送。
@@ -113,8 +113,8 @@ python3 main.py
 若使用 GitHub Actions 部署，请修改 `.github/workflows/sign-in.yml` 中的 `schedule.cron`。<br>
 若源码运行，建议配合计划任务实现每日自动运行，网上教程很多，此处不赘述。
 
-## 运行截图  
-<img width="366" height="295" alt="image" src="https://github.com/user-attachments/assets/55ee4bbc-3f3a-4e63-8746-3dcbc059ff90" />
+## 运行截图
+<img width="295" height="241" alt="526ba948ca826f2771da71e05d460f88" src="https://github.com/user-attachments/assets/ea769358-c39d-42d8-8019-5f5d826453ef" />
 
 ## 感谢以下项目
 
