@@ -38,7 +38,10 @@ notify:
     # Qmsg 推送密钥
     key: ""
     # 自定义 API 接口地址 (可选配置)
-    # base_url: "https://qmsg.zendee.cn"
+    base_url: "https://qmsg.zendee.cn/v3"
+    # 【Qmsg 3.0 使用说明】：
+    # 1. 若使用 Qmsg 3.0 密钥，需取消上方 base_url 的注释并改为: "https://qmsg.zendee.cn/v3"
+    # 2. 若留空或保持默认域名（不带 /v3），请求将回退至旧版接口导致 500 错误。
 
   # ---------- OneBot V11 标准协议 (SnowLuma / NapCat / go-cqhttp 等) ----------
   # 支持同时下发私聊与群聊消息，目标 ID 均支持配置多个
